@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    if !access_token
+        ul
+            li
+                a(href='/auth/twitch') Twitch auth
+    else
+        ul
+            li
+                a(href='/chat') Join chat

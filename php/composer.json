@@ -1,0 +1,11 @@
+{
+  "require": {
+    "symfony/console": "v3.2",
+    "facebook/webdriver": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Command\\": "command/"
+    }
+  }
+}
